@@ -1,20 +1,29 @@
-# Internspark C++ Internship
+# Task 2 Report
 
-## Task-2: Algorithms & Problem Solving
+## Algorithms Used
 
-### Programs
-- Bubble Sort
-- Selection Sort
-- Binary Search
+### 1. Bubble Sort
+- Purpose: Sort an array in ascending order.
+- Time Complexity:
+  - Best Case: O(n)
+  - Average Case: O(n²)
+  - Worst Case: O(n²)
 
-### Time Complexity
-- Bubble Sort: O(n²)
-- Selection Sort: O(n²)
-- Binary Search: O(log n)
+### 2. Selection Sort
+- Purpose: Sort an array in ascending order.
+- Time Complexity:
+  - Best Case: O(n²)
+  - Average Case: O(n²)
+  - Worst Case: O(n²)
 
-### Compile Commands
-```bash
-g++ bubble_sort.cpp -o bubble_sort
-g++ selection_sort.cpp -o selection_sort
-g++ binary_search.cpp -o binary_search
-```
+### 3. Binary Search
+- Purpose: Search an element in a sorted array.
+- Time Complexity:
+  - Best Case: O(1)
+  - Average Case: O(log n)
+  - Worst Case: O(log n)
+
+## Test Cases
+- Bubble Sort: Tested with unsorted integer array.
+- Selection Sort: Tested with unsorted integer array.
+- Binary Search: Tested with sorted array and different search values.
